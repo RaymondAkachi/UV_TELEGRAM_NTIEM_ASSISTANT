@@ -1,0 +1,32 @@
+[project]
+name = "uv-telegram-ntiem-assistant"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "apscheduler>=3.11.0",
+    "asyncpg>=0.30.0",
+    "boto3>=1.39.4",
+    "dateparser>=1.2.2",
+    "fastapi>=0.116.0",
+    "langchain>=0.3.26",
+    "langchain-community>=0.3.27",
+    "langchain-openai>=0.3.27",
+    "langchain-qdrant>=0.2.0",
+    "langgraph>=0.5.2",
+    "motor>=3.7.1",
+    "psycopg2>=2.9.10",
+    "pydantic-settings>=2.10.1",
+    "python-dateutil>=2.9.0.post0",
+    "python-dotenv>=1.1.1",
+    "pytz>=2025.2",
+    "qstash>=3.0.0",
+    "rapidfuzz>=3.13.0",
+    "redis>=6.2.0",
+    "sqlalchemy[asyncio]>=2.0.41",
+    "tavily-python>=0.7.9",
+    "together>=1.5.21",
+    "uvicorn>=0.35.0",
+]
+
